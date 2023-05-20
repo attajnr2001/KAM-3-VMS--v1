@@ -1,0 +1,28 @@
+* {
+  font-family: "Noto Sans Nag Mundari", sans-serif;
+}
+$color1: #333;
+$color2: #0049b7;
+
+.login {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 1em auto;
+    color: $color2;
+    text-decoration: underline;
+  }
+
+  .form {
+    border: 0;
+    border-bottom: 3px solid lighten($color1, 10%);
+    border-radius: 0.5em;
+    padding: 3em;
+  }
+}
